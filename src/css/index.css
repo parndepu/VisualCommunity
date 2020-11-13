@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato';
+    padding: 0;
+    overflow: hidden;
+}

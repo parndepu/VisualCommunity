@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GEOVISUALS</title>
+</head>
+<body>
+Hello World
+<style lang='scss'>
+@import '../../node_modules/mapbox-gl/dist/mapbox-gl.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../../node_modules/@simonwep/pickr/dist/themes/nano.min.css';
+@import '../css/index.css';
+</style>
+<script>
+// Install babel hooks in the renderer process
+require('babel-register');
+require("babel-polyfill");
+require('../js/main');
+</script>
+</body>
+</html>
